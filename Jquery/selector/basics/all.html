@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>all / *</title>
+        <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/util.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/hover.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/animate.css">
+    </head>
+
+    <body>
+        <h1 class="text-center">Select All Element</h1>
+        <h3 class="text-center">One</h3>
+        <h4 class="text-center">Two</h4>
+        <h5 class="text-center">Three</h5>
+    </body>
+
+    <script src="../../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../../assets/js/jquery-slim.min.js"></script>
+    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+        $('*').css('padding','20px');
+        $('*').css(
+            {
+                'border':'1px solid',
+                'color': 'green'
+            }
+        )
+    });
+    </script>
+
+</html>

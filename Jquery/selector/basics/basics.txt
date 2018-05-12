@@ -1,0 +1,7 @@
+$("*")                                // all elements
+$(".text-center")                     // elements with class="text-center"
+$("p")                                // <p> elements
+$("#idCEnter")                        // elements with id
+
+--------------------------------------------------------------
+$("h1, p, .text-center, #idCEnter")   // elements consider all

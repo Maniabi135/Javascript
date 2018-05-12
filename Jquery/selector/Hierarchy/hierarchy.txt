@@ -1,0 +1,2 @@
+parent > child             // parent child elements
+ancestor                   // parent, grandparent, great-grandparent, and so on.

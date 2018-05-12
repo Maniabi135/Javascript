@@ -1,0 +1,48 @@
+/* ///////////////////////[ FONT ] ////////////////////// */
+
+@font-face {
+    font-family: TTRounds-Black;
+    src: url('../fonts/TT-Round/TTRounds-Black.otf');
+}
+
+@font-face {
+    font-family: TTRounds-BlackItalic;
+    src: url('../fonts/TT-Round/TTRounds-BlackItalic.otf');
+}
+
+@font-face {
+    font-family: TTRounds-Bold;
+    src: url('../fonts/TT-Round/TTRounds-Bold.otf');
+}
+
+@font-face {
+    font-family: TTRounds-Italic;
+    src: url('../fonts/TT-Round/TTRounds-Italic.otf');
+}
+
+@font-face {
+    font-family: TTRounds-Light;
+    src: url('../fonts/TT-Round/TTRounds-Light.otf');
+}
+
+@font-face {
+    font-family: TTRounds-Regular;
+    src: url('../fonts/TT-Round/TTRounds-Regular.otf');
+}
+
+@font-face {
+    font-family: TTRounds-Thin;
+    src: url('../fonts/TT-Round/TTRounds-Thin.otf');
+}
+
+@font-face {
+    font-family: TTRounds-ThinItalic;
+    src: url('../fonts/TT-Round/TTRounds-ThinItalic.otf');
+}
+/*----------------------------- -----------------------------*/
+
+body{
+    font-family: TTRounds-Regular;
+    margin: 0;
+    padding: 0;
+}
